@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    color: white;
+}
+
+header {
+    background-color: #0a1622;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-background {
+    background: url('A_futuristic_electronics_and_communication-themed_.png') no-repeat center center/cover;
+    padding: 80px 20px;
+    border-bottom: 3px solid #00bcd4;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #0d1b2a;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-box {
+    background-color: #1e2b38;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 188, 212, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.contact p a {
+    color: #00bcd4;
+    text-decoration: none;
+}
